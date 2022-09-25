@@ -1,0 +1,8 @@
+name: TestPlugin
+version: 1.0
+main: me.silent.testplugin.Main
+
+api-version: 1.16
+
+description: RPG plugin
+author: S1L3NT
