@@ -6,3 +6,12 @@ api-version: 1.16
 
 description: RPG plugin
 author: S1L3NT
+
+permissions:
+  testplugin.skills:
+    description: Teste
+
+commands:
+  skills:
+    description: Teste
+    aliases: [skill, s]

@@ -28,7 +28,7 @@ public class JoinListener implements Listener {
         Profile profile = profileManager.getPlayerProfile(player.getUniqueId());
         if (profile == null) {
             profile = profileManager.createNewProfile(player);
-            log("Novo Jogador " + player.getName() + "entrou no servidor!");
+            log("Novo Jogador " + player.getName() + " entrou no servidor!");
 
         }
     }
