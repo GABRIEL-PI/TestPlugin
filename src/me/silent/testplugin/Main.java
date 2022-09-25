@@ -1,6 +1,7 @@
 package me.silent.testplugin;
 
 import me.silent.testplugin.commands.SkillCommand;
+import me.silent.testplugin.listeners.InvClickListener;
 import me.silent.testplugin.listeners.JoinListener;
 import me.silent.testplugin.managers.ProfileManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -23,6 +24,7 @@ public class Main extends JavaPlugin {
         getCommand("skills").setTabCompleter(skillCommand);
 
         getServer().getPluginManager().registerEvents(new JoinListener(this), this);
+        getServer().getPluginManager().registerEvents(new InvClickListener(this), this);
 
 
         log( "Plugin Ativado");

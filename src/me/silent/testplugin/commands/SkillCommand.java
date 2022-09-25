@@ -94,7 +94,6 @@ public class SkillCommand implements TabExecutor {
         return null;
     }
 
-    }
     public ItemStack editItem(ItemStack item, int amount, List<String> lore, String color, String s){
         if (amount == 0){
             amount = 1;
